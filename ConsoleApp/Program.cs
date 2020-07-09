@@ -6,6 +6,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testando");
             Console.ReadKey();
         }
     }
