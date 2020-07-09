@@ -64,7 +64,7 @@ namespace ConsoleAppUnitTests
             var result = _stack.Pop();
 
             //Assert
-            Assert.NotEqual(expected,result);
+            Assert.Equal(expected,result);
         }
     }
 }
